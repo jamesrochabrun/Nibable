@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092E24EE217C081B00E6D78A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E24ED217C081B00E6D78A /* AppDelegate.swift */; };
+		092E24F0217C081B00E6D78A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E24EF217C081B00E6D78A /* ViewController.swift */; };
+		092E24F3217C081B00E6D78A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092E24F1217C081B00E6D78A /* Main.storyboard */; };
+		092E24F5217C081E00E6D78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092E24F4217C081E00E6D78A /* Assets.xcassets */; };
+		092E24F8217C081E00E6D78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092E24F6217C081E00E6D78A /* LaunchScreen.storyboard */; };
+		092E2501217C083400E6D78A /* Nibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E2500217C083400E6D78A /* Nibable.swift */; };
+		092E2504217C089A00E6D78A /* BaseXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E2503217C089A00E6D78A /* BaseXibView.swift */; };
+		092E2506217C0A0A00E6D78A /* ProgressLoadingGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E2505217C0A0A00E6D78A /* ProgressLoadingGridView.swift */; };
+		092E250A217C0B2C00E6D78A /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E2509217C0B2C00E6D78A /* GridLayout.swift */; };
+		092E250D217C0B8D00E6D78A /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E250C217C0B8D00E6D78A /* ColorCell.swift */; };
+		092E250F217C0BDD00E6D78A /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E250E217C0BDD00E6D78A /* Reusable.swift */; };
+		092E2511217C0C5200E6D78A /* GenericCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E2510217C0C5200E6D78A /* GenericCollectionViewCell.swift */; };
+		092E2513217C0C8400E6D78A /* GenericCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E2512217C0C8400E6D78A /* GenericCollectionViewDataSource.swift */; };
+		092E2515217C10CB00E6D78A /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E2514217C10CB00E6D78A /* UILabel+Extension.swift */; };
+		092E2517217C117100E6D78A /* DispatchQueue+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E2516217C117100E6D78A /* DispatchQueue+Extension.swift */; };
+		092E2519217C149F00E6D78A /* ProgressLoadingGridView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092E2518217C149F00E6D78A /* ProgressLoadingGridView.xib */; };
+		092E251B217C15D600E6D78A /* ColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092E251A217C15D600E6D78A /* ColorCell.xib */; };
+		092E251D217D489C00E6D78A /* CommonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092E251C217D489C00E6D78A /* CommonCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		092E24EA217C081B00E6D78A /* Nibable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nibable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		092E24ED217C081B00E6D78A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		092E24EF217C081B00E6D78A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		092E24F2217C081B00E6D78A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		092E24F4217C081E00E6D78A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		092E24F7217C081E00E6D78A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		092E24F9217C081E00E6D78A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		092E2500217C083400E6D78A /* Nibable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Nibable.swift; path = ../../../Nibable.swift; sourceTree = "<group>"; };
+		092E2503217C089A00E6D78A /* BaseXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseXibView.swift; path = ../../../BaseXibView.swift; sourceTree = "<group>"; };
+		092E2505217C0A0A00E6D78A /* ProgressLoadingGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProgressLoadingGridView.swift; path = ../../../ProgressLoadingGridView.swift; sourceTree = "<group>"; };
+		092E2509217C0B2C00E6D78A /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GridLayout.swift; path = ../../../GridLayout.swift; sourceTree = "<group>"; };
+		092E250C217C0B8D00E6D78A /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		092E250E217C0BDD00E6D78A /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		092E2510217C0C5200E6D78A /* GenericCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GenericCollectionViewCell.swift; path = "Nibable/New Group/GenericCollectionViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		092E2512217C0C8400E6D78A /* GenericCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GenericCollectionViewDataSource.swift; path = "Nibable/New Group/GenericCollectionViewDataSource.swift"; sourceTree = SOURCE_ROOT; };
+		092E2514217C10CB00E6D78A /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UILabel+Extension.swift"; path = "../../../../KodakMomentsV3/UILabel+Extension.swift"; sourceTree = "<group>"; };
+		092E2516217C117100E6D78A /* DispatchQueue+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extension.swift"; path = "../../../../KodakMomentsV3/DispatchQueue+Extension.swift"; sourceTree = "<group>"; };
+		092E2518217C149F00E6D78A /* ProgressLoadingGridView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressLoadingGridView.xib; sourceTree = "<group>"; };
+		092E251A217C15D600E6D78A /* ColorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorCell.xib; sourceTree = "<group>"; };
+		092E251C217D489C00E6D78A /* CommonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		092E24E7217C081B00E6D78A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092E24E1217C081B00E6D78A = {
+			isa = PBXGroup;
+			children = (
+				092E24EC217C081B00E6D78A /* Nibable */,
+				092E24EB217C081B00E6D78A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		092E24EB217C081B00E6D78A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				092E24EA217C081B00E6D78A /* Nibable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		092E24EC217C081B00E6D78A /* Nibable */ = {
+			isa = PBXGroup;
+			children = (
+				092E250B217C0B5400E6D78A /* GenericClasses */,
+				092E2508217C0B1B00E6D78A /* Helpers */,
+				092E2502217C088C00E6D78A /* Views */,
+				092E24FF217C082800E6D78A /* Protocols */,
+				092E24ED217C081B00E6D78A /* AppDelegate.swift */,
+				092E24EF217C081B00E6D78A /* ViewController.swift */,
+				092E24F1217C081B00E6D78A /* Main.storyboard */,
+				092E24F4217C081E00E6D78A /* Assets.xcassets */,
+				092E24F6217C081E00E6D78A /* LaunchScreen.storyboard */,
+				092E24F9217C081E00E6D78A /* Info.plist */,
+			);
+			path = Nibable;
+			sourceTree = "<group>";
+		};
+		092E24FF217C082800E6D78A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				092E2500217C083400E6D78A /* Nibable.swift */,
+				092E250E217C0BDD00E6D78A /* Reusable.swift */,
+			);
+			name = Protocols;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		092E2502217C088C00E6D78A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				092E2503217C089A00E6D78A /* BaseXibView.swift */,
+				092E2505217C0A0A00E6D78A /* ProgressLoadingGridView.swift */,
+				092E250C217C0B8D00E6D78A /* ColorCell.swift */,
+				092E2518217C149F00E6D78A /* ProgressLoadingGridView.xib */,
+				092E251A217C15D600E6D78A /* ColorCell.xib */,
+				092E251C217D489C00E6D78A /* CommonCell.xib */,
+			);
+			name = Views;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		092E2508217C0B1B00E6D78A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				092E2509217C0B2C00E6D78A /* GridLayout.swift */,
+				092E2514217C10CB00E6D78A /* UILabel+Extension.swift */,
+				092E2516217C117100E6D78A /* DispatchQueue+Extension.swift */,
+			);
+			name = Helpers;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		092E250B217C0B5400E6D78A /* GenericClasses */ = {
+			isa = PBXGroup;
+			children = (
+				092E2510217C0C5200E6D78A /* GenericCollectionViewCell.swift */,
+				092E2512217C0C8400E6D78A /* GenericCollectionViewDataSource.swift */,
+			);
+			name = GenericClasses;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		092E24E9217C081B00E6D78A /* Nibable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092E24FC217C081E00E6D78A /* Build configuration list for PBXNativeTarget "Nibable" */;
+			buildPhases = (
+				092E24E6217C081B00E6D78A /* Sources */,
+				092E24E7217C081B00E6D78A /* Frameworks */,
+				092E24E8217C081B00E6D78A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nibable;
+			productName = Nibable;
+			productReference = 092E24EA217C081B00E6D78A /* Nibable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		092E24E2217C081B00E6D78A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "James Rochabrun";
+				TargetAttributes = {
+					092E24E9217C081B00E6D78A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 092E24E5217C081B00E6D78A /* Build configuration list for PBXProject "Nibable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 092E24E1217C081B00E6D78A;
+			productRefGroup = 092E24EB217C081B00E6D78A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				092E24E9217C081B00E6D78A /* Nibable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		092E24E8217C081B00E6D78A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092E2519217C149F00E6D78A /* ProgressLoadingGridView.xib in Resources */,
+				092E24F8217C081E00E6D78A /* LaunchScreen.storyboard in Resources */,
+				092E24F5217C081E00E6D78A /* Assets.xcassets in Resources */,
+				092E251B217C15D600E6D78A /* ColorCell.xib in Resources */,
+				092E251D217D489C00E6D78A /* CommonCell.xib in Resources */,
+				092E24F3217C081B00E6D78A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		092E24E6217C081B00E6D78A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092E2515217C10CB00E6D78A /* UILabel+Extension.swift in Sources */,
+				092E24F0217C081B00E6D78A /* ViewController.swift in Sources */,
+				092E2504217C089A00E6D78A /* BaseXibView.swift in Sources */,
+				092E250D217C0B8D00E6D78A /* ColorCell.swift in Sources */,
+				092E2511217C0C5200E6D78A /* GenericCollectionViewCell.swift in Sources */,
+				092E2501217C083400E6D78A /* Nibable.swift in Sources */,
+				092E250F217C0BDD00E6D78A /* Reusable.swift in Sources */,
+				092E250A217C0B2C00E6D78A /* GridLayout.swift in Sources */,
+				092E2513217C0C8400E6D78A /* GenericCollectionViewDataSource.swift in Sources */,
+				092E2517217C117100E6D78A /* DispatchQueue+Extension.swift in Sources */,
+				092E2506217C0A0A00E6D78A /* ProgressLoadingGridView.swift in Sources */,
+				092E24EE217C081B00E6D78A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		092E24F1217C081B00E6D78A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092E24F2217C081B00E6D78A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		092E24F6217C081E00E6D78A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092E24F7217C081E00E6D78A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		092E24FA217C081E00E6D78A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		092E24FB217C081E00E6D78A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		092E24FD217C081E00E6D78A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQ45U4X9K3;
+				INFOPLIST_FILE = Nibable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlintappexample.Nibable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		092E24FE217C081E00E6D78A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQ45U4X9K3;
+				INFOPLIST_FILE = Nibable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlintappexample.Nibable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		092E24E5217C081B00E6D78A /* Build configuration list for PBXProject "Nibable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092E24FA217C081E00E6D78A /* Debug */,
+				092E24FB217C081E00E6D78A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092E24FC217C081E00E6D78A /* Build configuration list for PBXNativeTarget "Nibable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092E24FD217C081E00E6D78A /* Debug */,
+				092E24FE217C081E00E6D78A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 092E24E2217C081B00E6D78A /* Project object */;
+}
